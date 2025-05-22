@@ -57,8 +57,6 @@ export const BrainSpatial: React.FC<SpatialProps> = ({ gene }) => {
       fetchConfig();
     }
   }, [selectedSample, gene]);
-
-  if (typeof window == 'undefined') return;
   
   return (
     <Stack>
